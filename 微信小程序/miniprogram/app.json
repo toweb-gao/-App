@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mymap/mymap",
+    "pages/detail/detail",
+    "pages/exam01/exam01",
+    "pages/login/login"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"}
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor": "#FFCB57",
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "电影",
+      "iconPath": "images/01.png",
+      "selectedIconPath": "images/01_active.png"
+      },
+      {
+        "pagePath": "pages/mymap/mymap",
+        "text": "地图",
+        "iconPath": "images/02.png",
+        "selectedIconPath": "images/02_active.png"
+      },
+      {
+         "pagePath": "pages/login/login",
+          "text": "登录",
+          "iconPath": "images/03.png",
+          "selectedIconPath": "images/03_active.png"
+      }       
+    ]
+  }
+}
